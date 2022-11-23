@@ -1,0 +1,965 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    }
+    
+   body{
+	background-color: #000000 ;
+  height: 7000px;
+  position: relative;
+  
+	}
+
+	header{
+  	background-color: #000000;
+  	height: 80px;
+    z-index: 1;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+    font-family: inter;
+	}
+
+  main{
+    position: relative;
+    top: 400px;
+    left: 60px;
+    color: #C1C1C1;
+    font-family: Montserrat;
+    font-size: 100px;
+    animation: appear 2s 0s;
+  }
+
+  .nav {
+      display: flex;
+      justify-content: space-between;
+      margin: 0 auto;
+    }
+    
+   .nav-link {
+      color: white;
+      text-decoration: none;
+    }  
+
+   .logo {
+      position: relative;
+      top: 10px;
+      left: 0;
+      width: 190px;
+      height: 60px;
+    }
+
+    .logomedia{
+      position: absolute;
+      opacity: 0;
+      width: 100%;
+    }
+    
+   .nav-menu {
+      display: flex;
+      margin-right: 40px;
+      list-style: none;
+    }
+    
+   .nav-menu-item {
+      font-size: 18px;
+      margin: 0 10px;
+      line-height: 80px;
+      text-transform: uppercase;
+      width: max-content;
+    }
+    
+   .nav-menu-link {
+      padding: 8px 12px;
+      border-radius: 3px;
+    }
+    
+   .nav-menu-link:hover,
+   .nav-menu-link_active {
+      background-color: #162F19;
+      transition: 0.5s;
+    }
+    
+    /* TOGGLE */
+   .nav-toggle {
+      color: white;
+      background: none;
+      border: none;
+      font-size: 30px;
+      padding: 0 20px;
+      line-height: 60px;
+      cursor: pointer;
+    
+      display: none;
+    }
+
+  .div1{
+    background-image: url(https://i.blogs.es/5c68c0/xbox-retrocompatibilidad/1366_2000.jpeg); 
+    position: relative;
+   }
+
+    .deg{
+     position: relative;
+     top: 10px;
+     left: -485px;
+     -ms-transform: rotate(90deg);
+     -webkit-transform: rotate(90deg);
+     -moz-transform: rotate(90deg);
+     -o-transform: rotate(90deg);
+     transform: rotate(90deg);
+    }
+
+    .sec1{
+      animation: appear 2s 0s;
+    }
+
+      h1{
+       color: #C1C1C1 ;
+       font-family: Montserrat;
+       position: relative;
+       top: 400px;
+       left: 100px;
+      }
+
+      .text{
+        color: #C1C1C1 ;
+        font-family: Montserrat;
+        position: relative;
+        top: 400px;
+        left: 70px;
+        width: 800px ;
+        padding: 30px;
+        border-radius: 20px;
+      }
+
+  .backdiv{
+    position: relative;
+    top: 600px;
+    right: 0; 
+    width: 100%;
+    height: 1080px;
+    background-image: url(https://news.xbox.com/en-us/wp-content/uploads/sites/2/2021/11/Back-Compat-Hero_JPG.jpg);
+  }
+
+   .div2{
+   }
+
+    .sec2{
+     animation: appear 2s 0s;
+    }
+
+      .title{
+       color: #C1C1C1 ;
+       font-family: Montserrat;
+       font-size: 30px;
+       position: relative;
+       top: 800px;
+       left: 1060px;
+      }
+
+      .text0{
+        text-align: right;
+        color: #C1C1C1 ;
+        font-family: Montserrat;
+        width: 800px ;
+        position: relative;
+        top: 840px;
+        left: 440px;
+      }
+
+  .backdiv1{
+    position: relative;
+    top: 1000px;
+    right: 0; 
+    width: 100%;
+    height: 1080px;
+    background-image: url(https://pbs.twimg.com/media/DbszFXTW0AEvF3I.jpg:large);
+  } 
+
+  .divgames{
+        color: #C1C1C1 ;
+        font-family: Montserrat;
+        font-size: 37px;
+        width: 100% ;
+        position: relative;
+        top: 830px;
+        left: 60px;
+  }
+
+  .game{
+    color: #00A00F;
+    text-decoration: none;
+  }
+
+  .game:hover{
+    color: #00C126;
+
+  }   
+
+
+
+  .div3{
+
+   }
+
+    .sec3{
+
+  }
+
+    .title0{
+       color: #C1C1C1 ;
+       font-family: Montserrat;
+       font-size: 50px;
+       position: relative;
+       top: 1140px;
+       left: 1050px;
+       animation: appear 2s 0s;
+    }
+    
+    .title1{
+       color: #C1C1C1 ;
+       font-family: Montserrat;
+       font-size: 30px;
+       text-align: right;
+       position: relative;
+       top: 1240px;
+       left: 1097px;
+       animation: appear 2s 0s; 
+    }
+
+    .text1{
+      color: #C1C1C1 ;
+      font-family: Montserrat;
+      text-align: right;
+      position: relative;
+      top: 1300px;
+      left: 440px;
+      width: 800px;
+      animation: appear 2s 0s;
+    } 
+
+    .title2{
+       color: #C1C1C1 ;
+       font-family: Montserrat;
+       font-size: 30px;
+       position: relative;
+       top: 1420px;
+       left: 110px; 
+       animation: appear 2s 0s;  
+    }
+
+    .text2{
+      color: #C1C1C1 ;
+      font-family: Montserrat;
+      position: relative;
+      top: 1500px;
+      left: 110px;
+      width: 800px;
+      animation: appear 2s 0s;
+    }     
+
+    .title3{
+       color: #C1C1C1 ;
+       font-family: Montserrat;
+       font-size: 30px;
+       text-align: right;
+       position: relative;
+       top: 1575px;
+       left: 1010px;
+       animation: appear 2s 0s;   
+    }
+
+    .text3{
+      color: #C1C1C1 ;
+      font-family: Montserrat;
+      text-align: right;
+      position: relative;
+      top: 1655px;
+      left: 440px;
+      width: 800px;
+      animation: appear 2s 0s;
+    }
+ 
+   .img1{
+    position: relative;
+    top: 580px;
+    left: 215px;
+    border-radius: 20px;
+  }
+
+  .deg1{
+  position: relative;
+  top: 0;
+  left: 0;
+  -ms-transform: rotate(180deg);
+  -webkit-transform: rotate(180deg);
+  -moz-transform: rotate(180deg);
+  -o-transform: rotate(180deg);
+  transform: rotate(180deg);
+  }
+    
+    .padd{
+      padding: 90px 20px 0;
+    }
+
+    .a{
+    position: absolute;
+    width: 350px;
+    height: 250px;
+    border: solid 2px black;
+    top: 250px;
+    }
+
+    .b{
+    position: absolute;
+    width: 350px;
+    height: 250px;
+    border: solid 2px black;
+    top: 250px;
+    left: 400px;
+    }
+
+    .c{
+    position: absolute;
+    width: 350px;
+    height: 250px;
+    border: solid 2px black;
+    top:250px;
+    left: 800px;
+    }
+
+    .d{
+    position: absolute;
+    width: 350px;
+    height: 250px;
+    border: solid 2px black;
+    top: 550px;
+    }
+
+    .e{
+    position: absolute;
+    width: 350px;
+    height: 250px;
+    border: solid 2px black;
+    top: 550px;
+    left: 400px;
+    }
+
+    .f{
+    position: absolute;
+    width: 350px;
+    height: 250px;
+    border: solid 2px black;
+    top: 550px;
+    left: 800px;
+    }
+
+    .grand{
+    position: absolute;
+    width: 200px;
+    height: 200px;
+    top: 450px;
+    left: 1200px;
+    z-index: 2;
+    }
+    
+    .grand2{
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    top: 400px;
+    left: 1350px;
+    z-index: 1;
+    }
+
+    .imgpf{
+      position: relative;
+      top: 1900px;
+      left: 0;
+      animation: appear 2s 0s;
+    }
+
+    .imgpf1{
+      position: relative;
+      top: 2100px;
+      left: 0;
+      animation: appear 2s 0s;
+    }
+
+    .footer{
+      display: grid;
+      grid-template-columns: auto auto auto auto;
+      grid-template-rows: 1fr 1fr;
+      gap: 10px;
+      color: white;
+      font-family: inter;
+      text-align: center;
+      background-color: #031C03;
+      width: 100%;
+      height: 290px;
+      position: relative;
+      top: 2200px;
+      left: 0;
+    }
+
+    .xd{
+      position: relative;
+      top: 2500px;
+    }
+
+    .ad{
+      grid-column-start: 1;
+      grid-column-end: 5;
+      display: flex;
+      flex-direction: column;
+      justify-content: end;
+      padding-bottom: 20px;
+    }
+
+    .spam{
+      position: relative;
+      top:  px;
+      font-size: 12px;
+    }  
+
+     .fimg1{
+      width: 30px ;
+      
+      overflow: hidden;
+      
+      }
+
+      /*
+       width: 100%;
+        height: 100%;
+        transition: 0.5s;
+        object-fit: cover;
+
+        .fimg1:hover{
+          transform: scale(1.2);
+        }
+
+        .fo-img-1{
+        width: 30px ;
+        position: relative;
+        top: 25px;
+        left: -50px;
+        overflow: hidden;
+        margin: 20px;
+      }
+      */
+
+        .fth1{
+          color: white;
+          text-decoration: none;
+        }
+
+        .fth2{
+          color: white;
+          text-decoration: none;
+          
+        }
+
+          .fth1:hover{
+            color: #A1A2A1;
+            text-decoration: underline;
+
+           }
+
+          .fth2:hover{
+            color: #A1A2A1;
+            text-decoration: underline;
+          
+           }
+
+      .fimg2{
+        width: 30px ;
+        
+      }
+
+        .fth3{
+          color: white;
+          text-decoration: none;
+          
+        }
+
+          .fth3:hover{
+            color: #A1A2A1;
+            text-decoration: underline;
+          }   
+
+      .fimg3{
+        width: 30px ;
+        
+      }
+
+        .fth4{
+          color: white;
+          text-decoration: none;
+          
+        }
+
+          .fth4:hover{
+            color: #A1A2A1;
+            text-decoration: underline;
+          }   
+
+      @keyframes appear{
+      0%{
+       opacity: 0%;
+       transform: translateX(100%);
+    }
+
+     100%{
+       opacity: 100%;
+       transform: translateX(0%);
+  }
+}
+
+    .flex{
+      display: flex;
+      flex-direction: column;
+      justify-content: end;
+      text-align: center;
+      
+    }
+
+
+
+        /*MEDIA CONTENT (MOBILE)
+          MEDIA CONTENT (MOBILE)
+          MEDIA CONTENT (MOBILE)
+          MEDIA CONTENT (MOBILE)
+          MEDIA CONTENT (MOBILE)
+          MEDIA CONTENT (MOBILE)
+          MEDIA CONTENT (MOBILE)*/ 
+
+
+@media (max-width: 600px) {         
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    }
+    
+   body{
+  background-color: #000000 ;
+  height: 4000px;
+  }
+
+  header{
+    background-color: #000000;
+    height: 80px;
+    z-index: 1;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+    font-family: inter;
+  }
+
+  main{
+    color: #C1C1C1;
+    font-family: Montserrat;
+    font-size: 60px;
+    position: relative;
+    top: 300px;
+    left: 100px;
+    
+  }
+  
+  
+
+  .nav {
+      display: flex;
+      justify-content: space-between;
+      max-width: 992px;
+      margin: 0 auto;
+    }
+    
+   .nav-link {
+      color: white;
+      text-decoration: none;
+    }  
+
+   .logo {
+      opacity: 0;
+      position: absolute;
+      left: 500px;
+    }
+
+   .logomedia{
+      position: relative;
+      opacity: 1;
+      top: 10px;
+      left: 5px;
+      width: 190px;
+      height: 60px;
+    }
+
+    
+   .nav-menu {
+      display: flex;
+      margin-right: 40px;
+      list-style: none;
+    }
+    
+   .nav-menu-item {
+      font-size: 12px;
+      margin: 0 12px;
+      line-height: 80px;
+      text-transform: uppercase;
+      width: max-content;
+    }
+    
+   .nav-menu-link {
+      padding: 5px 6px;
+      border-radius: 4px;
+    }
+    
+   .nav-menu-link:hover,
+   .nav-menu-link_active {
+      background-color: #162F19;
+      transition: 0.5s;
+    }
+    
+    /* TOGGLE */
+   .nav-toggle {
+      color: white;
+      background: none;
+      border: none;
+      font-size: 30px;
+      padding: 0 20px;
+      line-height: 60px;
+      cursor: pointer;
+    
+      display: none;
+    }
+
+  .div1{
+    background-image: url(https://i.blogs.es/5c68c0/xbox-retrocompatibilidad/1366_2000.jpeg);
+    background-size: 800px 500px; 
+    position: relative;
+   }
+
+    .deg{
+     position: relative;
+     top: 10px;
+     left: -485px;
+     -ms-transform: rotate(90deg);
+     -webkit-transform: rotate(90deg);
+     -moz-transform: rotate(90deg);
+     -o-transform: rotate(90deg);
+     transform: rotate(90deg);
+    }
+
+    .sec1{
+    
+    }
+
+      h1{
+       color: #C1C1C1 ;
+       font-family: Montserrat;
+       font-size: -10px;
+       position: relative;
+       top: 500px;
+       left: 50px;
+      }
+
+      .text{
+        color: #C1C1C1 ;
+        font-family: Montserrat;
+        position: relative;
+        top: 500px;
+        left: 25px;
+        width: 300px ;
+        padding: 30px;
+        border-radius: 20px;
+      }
+
+  .backdiv{
+    position: relative;
+    top: 600px;
+    right: 0; 
+    width: 1900px;
+    height: 800px;
+    background-size: 80%;
+    background-image: url(https://news.xbox.com/en-us/wp-content/uploads/sites/2/2021/11/Back-Compat-Hero_JPG.jpg);
+  }
+
+   .div2{
+
+   }
+
+    .sec2{
+     
+    }
+
+      .title{
+       color: #C1C1C1 ;
+       font-family: Montserrat;
+       font-size: 30px;
+       position: relative;
+       top: 700px;
+       left: 240px;
+      }
+
+      .text0{
+        text-align: right;
+        color: #C1C1C1 ;
+        font-family: Montserrat;
+        width: 300px ;
+        position: relative;
+        top: 750px;
+        left: 120px;
+      }
+
+  .backdiv1{
+    position: relative;
+    top: 900px;
+    right: 0; 
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 650px;
+    background-image: url(https://pbs.twimg.com/media/DbszFXTW0AEvF3I.jpg:large);
+  } 
+
+  .divgames{
+        color: #FFFFFF ;
+        font-family: Montserrat;
+        font-size: 37px;
+        width: 800px ;
+        position: relative;
+        top: 300px;
+        left: 30px;
+  }
+
+  .game{
+    color: #00A00F;
+    text-decoration: none;
+  }
+
+  .game:hover{
+    color: #00C126;
+
+  }   
+
+  .div3{
+
+   }
+
+    .sec3{
+    
+  }
+
+    .title0{
+       color: #C1C1C1 ;
+       font-family: Montserrat;
+       font-size: 40px;
+       position: relative;
+       top: 895px;
+       left: 270px;
+    }
+    
+    .title1{
+       color: #C1C1C1 ;
+       font-family: Montserrat;
+       font-size: 30px;
+       text-align: right;
+       position: relative;
+       top: 979px;
+       left: 287px;
+    }
+
+    .text1{
+      color: #C1C1C1 ;
+      font-family: Montserrat;
+      text-align: right;
+      position: relative;
+      top: 1030px;
+      left: 120px;
+      width: 300px;
+    } 
+
+    .title2{
+       color: #C1C1C1 ;
+       font-family: Montserrat;
+       font-size: 30px;
+       position: relative;
+       top: 1100px;
+       left: 50px;  
+    }
+
+    .text2{
+      color: #C1C1C1 ;
+      font-family: Montserrat;
+      position: relative;
+      top: 1150px;
+      left: 50px;
+      width: 300px;
+    }     
+
+    .title3{
+       color: #C1C1C1 ;
+       font-family: Montserrat;
+       font-size: 30px;
+       text-align: right;
+       position: relative;
+       top: 1205px;
+       left: 200px;  
+    }
+
+    .text3{
+      color: #C1C1C1 ;
+      font-family: Montserrat;
+      text-align: right;
+      position: relative;
+      top: 1250px;
+      left: 120px;
+      width: 300px;
+    }
+ 
+   .img1{
+    position: relative;
+    top: -900px;
+    left: 215px;
+    border-radius: 20px;
+  }
+
+  .deg1{
+  position: relative;
+  top: 0;
+  left: 0;
+  -ms-transform: rotate(180deg);
+  -webkit-transform: rotate(180deg);
+  -moz-transform: rotate(180deg);
+  -o-transform: rotate(180deg);
+  transform: rotate(180deg);
+  }
+    
+    .padd{
+      padding: 90px 20px 0;
+    }
+
+    .a{
+    position: absolute;
+    width: 350px;
+    height: 250px;
+    border: solid 2px black;
+    top: 250px;
+    }
+
+    .b{
+    position: absolute;
+    width: 350px;
+    height: 250px;
+    border: solid 2px black;
+    top: 250px;
+    left: 400px;
+    }
+
+    .c{
+    position: absolute;
+    width: 350px;
+    height: 250px;
+    border: solid 2px black;
+    top:250px;
+    left: 800px;
+    }
+
+    .d{
+    position: absolute;
+    width: 350px;
+    height: 250px;
+    border: solid 2px black;
+    top: 550px;
+    }
+
+    .e{
+    position: absolute;
+    width: 350px;
+    height: 250px;
+    border: solid 2px black;
+    top: 550px;
+    left: 400px;
+    }
+
+    .f{
+    position: absolute;
+    width: 350px;
+    height: 250px;
+    border: solid 2px black;
+    top: 550px;
+    left: 800px;
+    }
+
+    .grand{
+    position: absolute;
+    width: 200px;
+    height: 200px;
+    top: 450px;
+    left: 1200px;
+    z-index: 2;
+    }
+    
+    .grand2{
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    top: 400px;
+    left: 1350px;
+    z-index: 1;
+    }
+
+    .imgpf{
+      position: relative;
+      top: 1400px;
+      left: 0;
+    }
+
+    .imgpf1{
+      position: relative;
+      top: 1500px;
+      left: 0;
+    }
+
+    .footer{
+      color: white;
+      font-family: inter;
+      text-align: center;
+      font-size: 13px;
+      background-color: #103412;
+      width: 100%;
+      height: 100px;
+      position: relative;
+      top: 1600px;
+      left: 0;
+    }
+
+    .xd{
+      position: relative;
+      top: 1600px;
+    }
+
+   
+
+@keyframes appear{
+      0%{
+       opacity: 0%;
+       transform: translateY(100%);
+    }
+
+    100%{
+    opacity: 100%;
+    transform: translateY(0%);
+  }   
+  }      
+
+
+
+
